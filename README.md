@@ -4,7 +4,7 @@ A developer-first application format for running containerized applications in k
 ## Why do we need Mola?
 Helm is a powerful technology to pack you applications and deploy to Kubernetes. It has a powerful engine that makes your application definition declarative. You create new objects or modified them, and Helm takes care of upgrading your resources or deleting the ones you don't need anymore.
 
-But exposing helm templates to a developer is just overkill for the majority of use cases. Developers just want to define the docker image, ports, command, environment variables, volumes and little more. *Mola* understand a simple docker-compose like format and uses the Helm templating system to traslate this format into Kubernetes resources. Mola relies on Helm to deploy to Kubernetes, taking advantage of Helm declarative approach.
+But exposing helm templates to a developer is just overkill for the majority of use cases. Developers just want to define the docker image, ports, command, environment variables, volumes and little more. **Mola** understands a simple docker-compose like format and uses the Helm templating system to traslate this format into Kubernetes resources. Mola relies on Helm to deploy to Kubernetes, taking advantage of Helm declarative approach.
 
 Also, Helm does not cover the full development cycle, like re-building docker images when needed, query application logs or check metrics. The Mola CLI will also cover these scenarios.
 
