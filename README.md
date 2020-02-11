@@ -1,5 +1,5 @@
 # Mola (WIP)
-A developer-first application format for containerized applications running in k8s
+A developer-first application format for running containerized applications in k8s
 
 ## Why do we need Mola?
 Helm is a powerful technology to pack you applications and deploy to Kubernetes. It has a powerful engine that makes your application definition declarative. You create new objects or modified them, and Helm takes care of upgrading your resources or deleting the ones you don't need anymore.
